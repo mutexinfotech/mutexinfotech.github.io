@@ -25,7 +25,7 @@ a:hover {
 }
 /*--banner start here--*/
 .banner {
-    background: url(../images/banner1.jpg)no-repeat;
+    background: url(../images/banner2.jpg)no-repeat;
     min-height:725px;
     background-size: cover;
 }
