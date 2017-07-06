@@ -1249,11 +1249,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="contact-bottom">
 				<div class="col-md-6 contact-left wow fadeInLeft" data-wow-delay="0.3s">
-					<form>
-						<input type="text"  value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-						<input type="text"  value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">					
-						<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
-						<input type="submit"  value="Send Message">
+				<form id="gform" method="POST" class="pure-form pure-form-stacked"
+  					action="https://script.google.com/macros/s/AKfycbw8PeqvBpzmne8X2_UZOg7D2j-Gqd4M-HgC-LuFNL8HM19tKGKK/exec">
+						<input id=name name="name" type="text"  value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+						<input id=name name="email"type="text"  value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">					
+						<textarea id=name, name=Mmessage onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+						<input name="message" type="submit"  value="Send Message">
 					</form>
 				</div>
 				<div class="col-md-6 contact-right wow fadeInRight" data-wow-delay="0.3s">
@@ -1271,6 +1272,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 </div>
+<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 <!--contact end here-->
 <!--map start here-->
 <!--<div class="map">-->
@@ -1333,6 +1336,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </div>
 <!--copy rights end here-->
+
 </body>
 </html>
 
