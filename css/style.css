@@ -969,7 +969,7 @@ i.link {
     border-radius: 5px;
     background: none;
 }
-.contact-left input[type="button"] {
+.contact-left input[type="submit"] {
     font-size: 1em;
     color: #fff;
     background: #EA548E;
